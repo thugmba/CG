@@ -1,3 +1,6 @@
+---
+title: Course Guide
+---
 
 # Course Guide
 
