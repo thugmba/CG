@@ -10,16 +10,16 @@
 - Tunghai University's official email (xyz@thu.edu.tw)
 - Tunghai University's official MS Teams account (xyz@tdrive.thu.edu.tw)
 - iLearn App (Tronclass) on phone
-- 咚咚妞網頁版 https://dondonweb.ithu.tw/
-- THU Technical support: https://lis.thu.edu.tw/web/page/page.php?lang=en&scid=54&sid=96
+- 咚咚妞網頁版 <https://dondonweb.ithu.tw/>
+- THU Technical support: <https://lis.thu.edu.tw/web/page/page.php?lang=en&scid=54&sid=96>
 
 ## Communication
 
 - Tunghai University's official email will be used for all course-related communication. (e.g., xyz@thu.edu.tw)
-- To send course-related emails to the instructor, log in to https://tmail.thu.edu.tw and send your email from there. This ensures emails are not filtered as spam by the university system.
+- To send course-related emails to the instructor, log in to <https://tmail.thu.edu.tw> and send your email from there. This ensures emails are not filtered as spam by the university system.
 - Emails sent during work hours will be responded to within a reasonable time.
 - Additional communication methods may be explored based on specific requirements.
-- *For technical inquiries regarding university email, contact https://lis.thu.edu.tw/web/page/page.php?lang=en&scid=54&sid=96
+- *For technical inquiries regarding university email, contact <https://lis.thu.edu.tw/web/page/page.php?lang=en&scid=54&sid=96>
 
 ## Attendance
 
