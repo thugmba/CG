@@ -67,8 +67,8 @@
 
 ## Office Hours
 
-- Office hours will be announced in class
-- Appointments can be made with prior arrangement
+- Office hours will be announced in class.
+- Appointments can be made with prior arrangement.
 
 ## Presentations
 
