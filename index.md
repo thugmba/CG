@@ -21,14 +21,14 @@ Additionally, this guide can help students prepare as professionals in the workp
 ## Prerequisites
 
 ### Accounts
-- THU official email (xyz@thu.edu.tw)
-- THU official MS Teams account (xyz@tdrive.thu.edu.tw) for accessing any MS Apps
-- Be aware of the **difference between THU official email and MS Teams account**. Official email account won't be able to access MS Teams. Only **official MS Teams account** can access MS Teams.
+- [ ] THU official **email** account (xyz@thu.edu.tw)
+- [ ] THU official **MS Teams** account (xyz@**tdrive**.thu.edu.tw) for accessing any MS Apps
+- Be aware of the **difference between THU official email and MS Teams** account. Official email account won't be able to access MS Teams. Only **official MS Teams** account can access MS Teams.
 
 ### Software & Apps
 - iLearn App (Tronclass) on smartphone
 - MS Word, MS PowerPoint, MS Teams, MS OneNote
-- Web browser: Google Chrome
+- Google Chrome
 - THU AI Apps
   - 咚咚妞網頁版 <https://dondonweb.ithu.tw/>
 - For Python Programming Labs:
@@ -47,6 +47,8 @@ Additionally, this guide can help students prepare as professionals in the workp
   - <https://helpdesk.thu.edu.tw/>
 
 ## Communication
+
+Mastering professional email communication help you make a positive impression on everyone you work with. Each email you write is an opportunity to show **respect**, **clarity**, and **professionalism**, qualities that will set you apart in any field you choose.
 
 - THU's official email will be used for all course-related communication. (e.g., xyz@thu.edu.tw)
 - To send course-related emails to the instructor, log in to <https://tmail.thu.edu.tw> and send your email from there. This ensures emails are not filtered as spam by the university system.
@@ -110,23 +112,34 @@ Every assignment you complete is a step toward becoming the professional you wan
 
 ## AI Policy
 
+AI technologies can be powerful tools to **enhance your learning** and **productivity**. However, it is crucial to use them **ethically** and **responsibly** to maintain academic integrity.
+
 - AI tools may be used for brainstorming and research, but all written work must be in your own words.
 - If any AI systems are used in your work, specify the name of the AI system, its purpose, and its output as detailed as possible to avoid plagiarism.
 
 ## Exams
+
+Every exam is a chance to prove to yourself how much you've learned and how capable you are. Your efforts in preparing for exams reflect your commitment to excellence and your readiness to take on future challenges with confidence.
 
 - If you arrive late, you will not be permitted to take the exam.
 - Each exam is 50 minutes long.
 - Mid-term exam: 20 multiple-choice questions.
 - Final exam: 20 multiple-choice questions or may be substituted by a final presentation.
 - To take an exam, use the iLearn on a computer.
-- Only one device is allowed to be used during the exam.
+- If the exam is held in a computer lab, use the computer provided. Personal laptops are not allowed.
 - *The type of exam is subject to change depending on the progress of the course.
 
 ## Labs
 
+In-class labs are where learning comes alive, where you transform knowledge into real skills you can use in your career. Embrace each lab session as a chance to experiment, learn from mistakes, and build the confidence to tackle any challenge you'll face as a professional.
+
 - To follow the lecture properly, change the computer's default language to English.
 - Ensure you can use MS Teams, MS OneNote before the lab session.
+- Listen carefully to the instructor's explanation before starting the lab.
+- Complete the lab within the allotted time.
+- Save your work frequently to avoid data loss.
+- Double-check your work before submission.
+- Submit the lab assignment to iLearn before deadline.
 
 ## Office Hours
 
