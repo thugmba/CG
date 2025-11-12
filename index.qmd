@@ -16,14 +16,13 @@ format:
 
 ## Purpose
 
-This guide outlines the course policies and expectations for students enrolled in this class. It is essential that all students read and understand these guidelines to ensure a successful learning experience. 
+This guide outlines the course policies and expectations for students enrolled at THU. It is essential that all students read and understand these guidelines to ensure a successful learning experience. 
 
 Additionally, this guide can help students prepare as professionals in the workplace by:
 
 - **Understanding** task instructions clearly 
 - **Executing** the task precisely
 - **Creating** a high-quality output
-
 
 ## Prerequisites
 
