@@ -30,13 +30,13 @@ Additionally, this guide can help students prepare as professionals in the workp
 Before the course begins, ensure you have the following accounts, software, and technical support resources set up.
 
 ### Accounts
-- THU official **email** account (xyz@thu.edu.tw)
-- THU official **MS Teams** account (xyz@**tdrive**.thu.edu.tw) for accessing any MS Apps
+- THU official **email** account (xyz@thu.edu.tw) <https://tmail.thu.edu.tw/>
+- THU official **MS Teams** account (xyz@**tdrive**.thu.edu.tw) for accessing any MS Apps <https://login.microsoftonline.com>
 - Be aware of the **difference between THU official email and MS Teams** account. Official email account won't be able to access MS Teams. Only **official MS Teams** account can access MS Teams.
 
 ### Software & Apps
-- iLearn App (Tronclass) on smartphone
-- MS Word, MS PowerPoint, MS Teams, MS OneNote
+- iLearn App (Tronclass) on smartphone <https://ilearn.thu.edu.tw>
+- MS Word, MS PowerPoint, MS Teams, MS OneNote 
 - Google Chrome
 - THU AI Apps
   - 咚咚妞網頁版 <https://dondonweb.ithu.tw/>
@@ -156,7 +156,24 @@ To help students effectively enhance their presentation skills, this course inco
   - Delivery (30%)
   - Body Language (20%)
   - Time Management (10%)
-- The oral presentation format largely follows TED's style: no scripts, no slides like <https://www.ted.com/talks/simon_sinek_why_good_leaders_make_you_feel_safe>
+- The oral presentation format largely follows TED's style: no scripts, no slides. 
+  - Leadership & Management
+    - Why good leaders make you feel safe, Simon Sinek, <https://www.ted.com/talks/simon_sinek_why_good_leaders_make_you_feel_safe>
+    - The Making of an Investment Banker, Jim Donovan, <https://youtu.be/3Pk8EmyK7kw?si=GnH8H7LLA2U8RDeT>
+    - LEADERSHIP LAB: The Craft of Writing Effectively, Larry McEnerney, <https://youtu.be/vtIzMaLkCaM?si=bt18GUas3eRDBS8C>
+    - Arnold Schwarzenegger Leaves the Audience SPEECHLESS | One of the Best Motivational Speeches Ever, Arnold Schwarzenegger, <https://youtu.be/1bumPyvzCyo?si=XZWiS-DfzPoKUMOB>
+  - Communication & Public Speaking
+    - Good Presentation VS Bad Presentation, Project IDEA, <https://youtu.be/V8eLdbKXGzk?si=xJF0uulzrKYgENV9>
+    - How to Start a Speech, Conor Neill, <https://youtu.be/w82a1FT5o88?si=2m_FnojM7tV1laoT>
+    - Communication Tips for Non-Native English Speakers, Matt Abrahams, <https://youtu.be/5LOSNDJgkFs?si=xVrMPLvOmhsfoAfY>
+    - Become great with your technical skills AND communication skills, Vinh Giang, <https://youtu.be/pNQjUGy1oEc?si=A8f54E-PGbmg46ek>
+    - Powerful technique to quickly improve how you speak, Vinh Giang, <https://youtu.be/mXPIJosPsVU?si=I793XwxZaUHBb8o1>
+    - Tory MP fails to understand Glaswegian accent of SNP's David Linden, The Guardian, <https://youtu.be/I4k8dR04TzA?si=BL-E4Wyxb1vEUaLK>
+  - Learning & Productivity
+    - Study Less Study Smart, Marty Lobdell, <https://youtu.be/IlU-zDU6aQ0?si=xN0ftskIMX3BRWg6>
+    - How to Make Learning as Addictive as Social Media | Duolingo's Luis Von Ahn | TED, Luis von Ahn, <https://youtu.be/P6FORpg0KVo?si=vRHFaR-kSo4cgOBQ>
+  - Professional Development & Etiquette
+    - 8 Email Etiquette Tips - How to Write Better Emails at Work, Harvard Business Review, <https://youtu.be/1XctnF7C74s?si=HE5uR7tEfxBetNRd>
 
 ## Policies
 
