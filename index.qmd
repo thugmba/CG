@@ -12,6 +12,8 @@ format:
     page-layout: full
 ---
 
+![](Course.png)
+
 ## Purpose
 
 This guide outlines the course policies and expectations for students enrolled in this class. It is essential that all students read and understand these guidelines to ensure a successful learning experience. 
@@ -21,6 +23,7 @@ Additionally, this guide can help students prepare as professionals in the workp
 - **Understanding** task instructions clearly 
 - **Executing** the task precisely
 - **Creating** a high-quality output
+
 
 ## Prerequisites
 
@@ -169,7 +172,7 @@ AI technologies can be powerful tools to **enhance your learning** and **product
 - AI tools may be used for brainstorming and research, but **all written work must be in your own words**.
 - If any AI systems are used in your work, specify the name of the AI system, its purpose, and its output as detailed as possible to avoid plagiarism.
   - **Example: Using AI for brainstorming**
-  
+
     > **AI System Used:** ChatGPT-4  
     > **Purpose:** Generate initial ideas for marketing strategies  
     > **Output:** The AI suggested five marketing approaches: social media campaigns, email marketing, influencer partnerships, content marketing, and SEO optimization. I selected content marketing and developed my own strategy based on course concepts.
