@@ -148,11 +148,7 @@ To help students effectively enhance their presentation skills, this course inco
 - The 'final' slide file (e.g., PowerPoint) should be turned in no later than 5 PM on the Friday preceding the presentation week. The slides are intended to help you organize your thoughts, but they are not permitted for use during the presentation.
 - Presentation topics will be assigned by the instructor.
 - Notes or scripts are not allowed during the presentation.
-- The evaluation criteria include:## Academic Integrity and Misconduct
-
-- **CAUTION!** Any academic misconduct will be reported to your department and the university.
-- For details about academic misconduct, refer to THU Academic Regulations. For example, Article 33. Being absent from the exam without an approved leave, the results of such a missed exam shall be counted as zero. Cheating on midterm, final, or graduation exams will result in the semester results being counted as zero.
-
+- The evaluation criteria include:
   - Content (40%)
   - Delivery (30%)
   - Body Language (20%)
@@ -172,12 +168,11 @@ AI technologies can be powerful tools to **enhance your learning** and **product
 
 - AI tools may be used for brainstorming and research, but **all written work must be in your own words**.
 - If any AI systems are used in your work, specify the name of the AI system, its purpose, and its output as detailed as possible to avoid plagiarism.
-
-- **Example: Using AI for brainstorming**
-
-  > **AI System Used:** ChatGPT-4  
-  > **Purpose:** Generate initial ideas for marketing strategies  
-  > **Output:** The AI suggested five marketing approaches: social media campaigns, email marketing, influencer partnerships, content marketing, and SEO optimization. I selected content marketing and developed my own strategy based on course concepts.
+  - **Example: Using AI for brainstorming**
+  
+    > **AI System Used:** ChatGPT-4  
+    > **Purpose:** Generate initial ideas for marketing strategies  
+    > **Output:** The AI suggested five marketing approaches: social media campaigns, email marketing, influencer partnerships, content marketing, and SEO optimization. I selected content marketing and developed my own strategy based on course concepts.
 
 ## Support Resources
 
