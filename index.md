@@ -21,8 +21,8 @@ Additionally, this guide can help students prepare as professionals in the workp
 ## Prerequisites
 
 ### Accounts
-- [ ] THU official **email** account (xyz@thu.edu.tw)
-- [ ] THU official **MS Teams** account (xyz@**tdrive**.thu.edu.tw) for accessing any MS Apps
+- THU official **email** account (xyz@thu.edu.tw)
+- THU official **MS Teams** account (xyz@**tdrive**.thu.edu.tw) for accessing any MS Apps
 - Be aware of the **difference between THU official email and MS Teams** account. Official email account won't be able to access MS Teams. Only **official MS Teams** account can access MS Teams.
 
 ### Software & Apps
