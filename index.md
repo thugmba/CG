@@ -20,6 +20,8 @@ Additionally, this guide can help students prepare as professionals in the workp
 
 ## Prerequisites
 
+Before the course begins, ensure you have the following accounts, software, and technical support resources set up.
+
 ### Accounts
 - THU official **email** account (xyz@thu.edu.tw)
 - THU official **MS Teams** account (xyz@**tdrive**.thu.edu.tw) for accessing any MS Apps
