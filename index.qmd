@@ -1,5 +1,15 @@
 ---
 title: Course Guide
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+    embed-resources: true
+    page-layout: full
 ---
 
 # Course Guide
@@ -12,11 +22,6 @@ Additionally, this guide can help students prepare as professionals in the workp
 - **Understanding** task instructions clearly 
 - **Executing** the task precisely
 - **Creating** a high-quality output
-
-## Academic Integrity and Misconduct
-
-- **CAUTION!** Any academic misconduct will be reported to your department and the university.
-- For details about academic misconduct, refer to THU Academic Regulations. For example, Article 33. Being absent from the exam without an approved leave, the results of such a missed exam shall be counted as zero. Cheating on midterm, final, or graduation exams will result in the semester results being counted as zero.
 
 ## Prerequisites
 
@@ -42,19 +47,13 @@ Before the course begins, ensure you have the following accounts, software, and 
   - RStudio <https://posit.co/download/rstudio-desktop/>
   - GitHub account <https://www.github.com>
 
-### Technical Support
-- THU Technical Support: 
-  - <https://lis.thu.edu.tw/web/page/page.php?lang=en&scid=54&sid=96>
-- THU Helpdesk: 
-  - <https://helpdesk.thu.edu.tw/>
-
 ## Communication
 
 Mastering professional email communication help you make a positive impression on everyone you work with. Each email you write is an opportunity to show **respect**, **clarity**, and **professionalism**, qualities that will set you apart in any field you choose.
 
 - THU's official email will be used for all course-related communication. (e.g., xyz@thu.edu.tw)
 - To send course-related emails to the instructor, log in to <https://tmail.thu.edu.tw> and send your email from there. This ensures emails are not filtered as spam by the university system.
-- Emails sent during work hours will be responded to within a reasonable time.
+- Emails sent during work hours (9AM-5PM) will be responded to within a reasonable time.
 - Course-related email should include course name, your name, student ID, department, and a clear subject line. Then, provide detailed information about your inquiry in the email body.
   - Example: 
 
@@ -94,7 +93,9 @@ Attending class regularly develops the **professional work ethic** that employer
 
 To succeed in this course, it is important to understand the expected workload. Based on past experiences, students typically spend one to two hours per week, outside of class time, reviewing course materials and preparing for the next class.
 
-## Assignments
+## Course Components
+
+### Assignments
 
 Every assignment you complete is a step toward becoming the professional you want to be. Embrace each task as a **chance** to grow your skills and prove to yourself that you can **achieve excellence through dedication and effort**.
 
@@ -108,30 +109,11 @@ Every assignment you complete is a step toward becoming the professional you wan
 - For a video assignment,
   1. Upload the video to your **Google Drive**.
   2. Submit a link to the video to iLearn.
-- Submit all necessary materials to iLearn before the deadline.
 - To avoid submission errors, submit your work at least one hour before the deadline.
 - For grammar and spelling checks, use tools like Grammarly or Microsoft Editor.
+- Submit assignments by the deadline. Contact the instructor before the due date if you need to discuss alternative arrangements.
 
-## AI Policy
-
-AI technologies can be powerful tools to **enhance your learning** and **productivity**. However, it is crucial to use them **ethically** and **responsibly** to maintain academic integrity.
-
-- AI tools may be used for brainstorming and research, but all written work must be in your own words.
-- If any AI systems are used in your work, specify the name of the AI system, its purpose, and its output as detailed as possible to avoid plagiarism.
-
-## Exams
-
-Every exam is a chance to prove to yourself how much you've learned and how capable you are. Your efforts in preparing for exams reflect your commitment to excellence and your readiness to take on future challenges with confidence.
-
-- If you arrive late, you will not be permitted to take the exam.
-- Each exam is 50 minutes long.
-- Mid-term exam: 20 multiple-choice questions.
-- Final exam: 20 multiple-choice questions or may be substituted by a final presentation.
-- To take an exam, use the iLearn on a computer.
-- If the exam is held in a computer lab, use the computer provided. Personal laptops are not allowed.
-- *The type of exam is subject to change depending on the progress of the course.
-
-## Labs
+### Labs
 
 In-class labs are where learning comes alive, where you transform knowledge into real skills you can use in your career. Embrace each lab session as a chance to experiment, learn from mistakes, and build the confidence to tackle any challenge you'll face as a professional.
 
@@ -143,15 +125,64 @@ In-class labs are where learning comes alive, where you transform knowledge into
 - Double-check your work before submission.
 - Submit the lab assignment to iLearn before deadline.
 
-## Office Hours
+### Exams
 
-- Office hours will be announced in class.
-- Appointments can be made with prior arrangement.
+Every exam is a chance to prove to yourself how much you've learned and how capable you are. Your efforts in preparing for exams reflect your commitment to excellence and your readiness to take on future challenges with confidence.
 
-## Presentations
+- If you arrive late, you will not be permitted to take the exam.
+- Each exam is 50 minutes long.
+- Mid-term exam: 20 multiple-choice questions.
+- Final exam: 20 multiple-choice questions or may be substituted by a final presentation.
+- To take an exam, use the iLearn on a computer.
+- If the exam is held in a computer lab, use the computer provided. Personal laptops are not allowed.
+- During the exam, all personal belongings (bags, phones, smartwatches, etc.) must be placed at the front of the classroom.
+- No talking or any form of communication is allowed during the exam.
+- Once you finished the exam, submit it on iLearn and leave the classroom quietly.
+- The type of exam is subject to change depending on the progress of the course.
+
+### Presentations
 
 To help students effectively enhance their presentation skills, this course incorporates **professional-level presentation practice** modeled after TED Talks.
 
-- The use of devices such as PCs, phones, and tablets is prohibited during the presentation
+- The use of devices such as PCs, phones, and tablets is prohibited during the presentation.
+- Presentations should last between 3 to 5 minutes depending on the class size.
 - The 'final' slide file (e.g., PowerPoint) should be turned in no later than 5 PM on the Friday preceding the presentation week. The slides are intended to help you organize your thoughts, but they are not permitted for use during the presentation.
+- Presentation topics will be assigned by the instructor.
+- Notes or scripts are not allowed during the presentation.
+- The evaluation criteria include:## Academic Integrity and Misconduct
+
+- **CAUTION!** Any academic misconduct will be reported to your department and the university.
+- For details about academic misconduct, refer to THU Academic Regulations. For example, Article 33. Being absent from the exam without an approved leave, the results of such a missed exam shall be counted as zero. Cheating on midterm, final, or graduation exams will result in the semester results being counted as zero.
+
+  - Content (40%)
+  - Delivery (30%)
+  - Body Language (20%)
+  - Time Management (10%)
 - The oral presentation format largely follows TED's style: no scripts, no slides like <https://www.ted.com/talks/simon_sinek_why_good_leaders_make_you_feel_safe>
+
+## Policies
+
+### Academic Integrity and Misconduct
+
+- **CAUTION!** Any academic misconduct will be reported to your department and the university.
+- For details about academic misconduct, refer to THU Academic Regulations. For example, Article 33. Being absent from the exam without an approved leave, the results of such a missed exam shall be counted as zero. Cheating on midterm, final, or graduation exams will result in the semester results being counted as zero.
+
+### AI Policy
+
+AI technologies can be powerful tools to **enhance your learning** and **productivity**. However, it is crucial to use them **ethically** and **responsibly** to maintain academic integrity.
+
+- AI tools may be used for brainstorming and research, but all written work must be in your own words.
+- If any AI systems are used in your work, specify the name of the AI system, its purpose, and its output as detailed as possible to avoid plagiarism.
+
+## Support Resources
+
+### Technical Support
+- THU Technical Support: 
+  - <https://lis.thu.edu.tw/web/page/page.php?lang=en&scid=54&sid=96>
+- THU Helpdesk: 
+  - <https://helpdesk.thu.edu.tw/>
+
+### Office Hours
+
+- Office hours will be announced in class.
+- Appointments can be made with prior arrangement.
