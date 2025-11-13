@@ -236,7 +236,7 @@ When submitting to iLearn for grading., submit PDF files only.
 # Student Checklist
 
 ### Document Naming
-- [ ] Used StudentID_Name_Keyword format  
+- [ ] Used StudentID_Name_Keyword format for filename
 - [ ] Saved .docx  
 - [ ] Saved .pdf  
 
@@ -256,8 +256,9 @@ When submitting to iLearn for grading., submit PDF files only.
 
 ### Page Numbers
 - [ ] Inserted  
-- [ ] Roman numerals applied  
-- [ ] Moved to top-right  
+- [ ] Normal numbers (1, 2, 3)
+- [ ] Times New Roman, 11 pt font  
+- [ ] Bottom-center position
 
 ### Table
 - [ ] Rows/columns added and deleted correctly  
