@@ -1,6 +1,8 @@
-# MS Word Features
+# How to create professional documents
 
-These are essential MS Word features commonly used for preparing in-class activity reports, assignements, and final project for the course. Practice using these features to enhance your document formatting skills and earn higher grades on your submissions.
+As a professional, createing knowledgeable and well-formatted documents is crucial.
+
+These are essential **MS Word** features commonly used for preparing *in-class activity reports*, *assignements*, and *final project* for the course. Practice using these features to enhance your document formatting skills and earn higher grades on your submissions.
 
 - Text formatting
   - Font
@@ -70,7 +72,7 @@ Name every file using the format:
 **StudentID_Name_Keyword**  
 Example: `S09120146_James_WordPractice`
 
-Use **font size 12 pt** in all documents unless otherwise specified.
+Use **font size 11 pt** in all documents unless otherwise specified.
 
 Each scenario must include saving your work as both:
 - A regular Word file (.docx)
@@ -84,13 +86,13 @@ When submitting to iLearn for grading., submit PDF files only.
    Save immediately as:  
    **StudentID_Name_TextFormatting.docx**
 
-2. Set the entire document to **12 pt** font size.
+2. Set the entire document to **11 pt** font size.
 
 3. Type the sentence:  
    **MS Word formatting helps create professional documents.**  
    Apply:  
    - Font: Times New Roman  
-   - Size: 12 pt  
+   - Size: 11 pt  
    - Make **professional documents** bold and italic  
    - Underline **MS Word**  
    - Highlight the entire sentence in yellow
@@ -104,13 +106,9 @@ When submitting to iLearn for grading., submit PDF files only.
    - **StudentID_Name_TextFormatting.docx**  
    - **StudentID_Name_TextFormatting.pdf**
 
-6. Submit PDF to iLearn for grading.
-
----
-
 ## Part 2 — Paragraph Formatting
 
-1. Create a **new document** and set font size to **12 pt**.  
+1. Create a **new document** and set font size to **11 pt**.  
    Save as:  
    **StudentID_Name_Paragraph.docx**
 
@@ -133,29 +131,29 @@ When submitting to iLearn for grading., submit PDF files only.
    - **StudentID_Name_Paragraph.docx**  
    - **StudentID_Name_Paragraph.pdf**
 
-6. Submit PDF to iLearn for grading.
-
 ## Part 3 — Insert: Page Numbers
 
-1. Create a **new document** and set font size to **12 pt**.  
+1. Create a **new document** and set the font size to **11 pt**.  
    Save as:  
    **StudentID_Name_PageNumber.docx**
 
-2. Insert a **page number** at bottom-center.
+2. Type the following influential quote as the main text:
 
-3. Change the page numbering to **Roman numerals (i, ii, iii)**.
+   > "The future depends on what you do today." — Mahatma Gandhi
 
-4. Move the page number to **top-right**.
+3. Insert a **page number** at the **bottom-center** of the page.
 
-5. Save two versions:  
+4. Ensure the page numbering is set to **normal numbers (1, 2, 3)**.
+
+5. Move the page number to the **top-right** position.
+
+6. Save two versions:  
    - **StudentID_Name_PageNumber.docx**  
    - **StudentID_Name_PageNumber.pdf**
 
-6. Submit PDF to iLearn for grading.
-
 ## Part 4 — Table Practice
 
-1. Create a **new document** and set font size to **12 pt**.  
+1. Create a **new document** and set font size to **11 pt**.  
    Save as:  
    **StudentID_Name_Table.docx**
 
@@ -175,49 +173,65 @@ When submitting to iLearn for grading., submit PDF files only.
    - **StudentID_Name_Table.docx**  
    - **StudentID_Name_Table.pdf**
 
-6. Submit PDF to iLearn for grading.
-
 ## Part 5 — Styles
 
-1. Create a **new document** and set font size to **12 pt**.  
+1. Create a **new document** and set font size to **11 pt**.  
    Save as:  
    **StudentID_Name_Styles.docx**
 
-2. Create a short document with:  
-   - A title  
-   - Two headings  
-   - Two paragraphs  
+2. Create a short document with the following structure. You may copy the example below:
+
+   **Example Title:**  
+   The Role of Data in Modern Business
+
+   **Example Heading 1:**  
+   Importance of Data
+
+   **Example Paragraph 1:**  
+   Data is a critical asset for organizations today. Businesses rely on data-driven insights to improve decision making, customer engagement, and strategic planning.
+
+   **Example Heading 2:**  
+   Using Data Effectively
+
+   **Example Paragraph 2:**  
+   Companies that manage and analyze data efficiently gain a competitive advantage. Proper data handling enables more accurate forecasting and better resource allocation.
 
 3. Apply built-in styles:  
    - Title → **Title**  
    - Headings → **Heading 1**  
    - Paragraphs → **Normal**
 
-4. Modify **Heading 1** style to:  
-   - Change color  
-   - Change size (still readable)  
+4. Modify **Heading 1** style:  
+   - Change the text color  
+   - Change the font size (choose a readable size)  
    - Make it bold  
 
-5. Create a new style called **MyHeading**:  
+5. Create a new style called **MyHeading** and apply it to one paragraph:  
    - Font: Calibri  
    - Size: **16 pt**  
    - Color: Dark Blue  
-   Apply the style to one paragraph.
 
 6. Save two versions:  
    - **StudentID_Name_Styles.docx**  
    - **StudentID_Name_Styles.pdf**
 
-6. Submit PDF to iLearn for grading.
-
 ## Part 6 — Save
 
-1. Ensure all documents use **12 pt** font size.  
+1. Ensure all documents use **11 pt** font size.  
 2. Confirm that each scenario includes both:
    - A .docx version  
    - A .pdf version  
 3. Check all file names follow:  
    **StudentID_Name_Keyword**
+
+## Part 7 - Submittion
+
+- Submit all PDF files to **iLearn** for grading.
+  - StudentID_Name_TextFormatting.pdf
+  - StudentID_Name_Paragraph.pdf
+  - StudentID_Name_PageNumber.pdf
+  - StudentID_Name_Table.pdf
+  - StudentID_Name_Styles.pdf
 
 # Student Checklist
 
@@ -227,7 +241,7 @@ When submitting to iLearn for grading., submit PDF files only.
 - [ ] Saved .pdf  
 
 ### Text Formatting
-- [ ] Font size set to 12 pt  
+- [ ] Font size set to 11 pt  
 - [ ] Bold / italic / underline  
 - [ ] Highlight applied  
 - [ ] Text color modified  
@@ -257,7 +271,8 @@ When submitting to iLearn for grading., submit PDF files only.
 - [ ] New style created  
 - [ ] New style applied  
 
-# Grading Rubric (100 Points)
+# Grading Rubric (100 Points). 
+The criteria subject to change depending on the class progress.
 
 | Category | Skills | Points |
 |---------|--------|--------|
