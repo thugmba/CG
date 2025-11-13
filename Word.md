@@ -1,8 +1,8 @@
 # How to create professional documents
 
-As a professional, createing knowledgeable and well-formatted documents is crucial.
+As a professional, creating knowledgeable and well-formatted documents is crucial.
 
-These are essential **MS Word** features commonly used for preparing *in-class activity reports*, *assignements*, and *final project* for the course. Practice using these features to enhance your document formatting skills and earn higher grades on your submissions.
+These are essential **MS Word** features commonly used for preparing *in-class activity reports*, *assignments*, and *final project* for the course. Practice using these features to enhance your document formatting skills and earn higher grades on your submissions.
 
 - Text formatting
   - Font
@@ -58,7 +58,7 @@ These are essential **MS Word** features commonly used for preparing *in-class a
 - Styles
   - Applying styles
   - Modifying styles
-  - Creating sew styles
+  - Creating new styles
 
 - Save
   - Save as PDF
@@ -70,7 +70,7 @@ Each practice task begins with creating a new MS Word document.
 
 Name every file using the format:
 **StudentID_Name_Keyword**  
-Example: `S09120146_James_WordPractice`
+Example: `S1234567_James_WordPractice`
 
 Use **Times New Roman** font, **font size 11 pt** in all documents unless otherwise specified.
 
@@ -78,7 +78,7 @@ Each scenario must include saving your work as both:
 - A regular Word file (.docx)
 - A PDF file (.pdf)
 
-When submitting to iLearn for grading., submit PDF files only.
+When submitting to iLearn for grading, submit PDF files only.
 
 ## Part 1 — Text Formatting
 
@@ -89,7 +89,8 @@ When submitting to iLearn for grading., submit PDF files only.
 2. Set the entire document to **11 pt** font size.
 
 3. Type the sentence:  
-   **MS Word formatting helps create professional documents.**  
+   MS Word formatting helps create professional documents.
+
    Apply:  
    - Font: Times New Roman  
    - Size: 11 pt  
@@ -224,7 +225,7 @@ When submitting to iLearn for grading., submit PDF files only.
 3. Check all file names follow:  
    **StudentID_Name_Keyword**
 
-## Part 7 - Submittion
+## Part 7 - Submission
 
 - Submit all PDF files to **iLearn** for grading.
   - StudentID_Name_TextFormatting.pdf
@@ -277,7 +278,7 @@ The criteria subject to change depending on the class progress.
 
 | Category | Skills | Points |
 |:--------:|:-------:|:------:|
-| Text Formatting | Font Size 12, Bold/Italic/Underline, Sub/Superscript, Color, Highlight | 20 |
+| Text Formatting | Font Size 11, Bold/Italic/Underline, Sub/Superscript, Color, Highlight | 20 |
 | Paragraph Formatting | Spacing, Indent, Lists, Alignments | 20 |
 | Page Numbers | Insert, Format, Position | 10 |
 | Table Skills | Modify Structure, Alignment, Autofit | 20 |
