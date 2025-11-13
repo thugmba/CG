@@ -76,9 +76,7 @@ Each scenario must include saving your work as both:
 - A regular Word file (.docx)
 - A PDF file (.pdf)
 
-Each scenario must submit PDF files to iLearn for grading.
-
----
+When submitting to iLearn for grading., submit PDF files only.
 
 ## Part 1 — Text Formatting
 
@@ -105,6 +103,8 @@ Each scenario must submit PDF files to iLearn for grading.
 5. Save two versions:  
    - **StudentID_Name_TextFormatting.docx**  
    - **StudentID_Name_TextFormatting.pdf**
+
+6. Submit PDF to iLearn for grading.
 
 ---
 
@@ -133,7 +133,7 @@ Each scenario must submit PDF files to iLearn for grading.
    - **StudentID_Name_Paragraph.docx**  
    - **StudentID_Name_Paragraph.pdf**
 
----
+6. Submit PDF to iLearn for grading.
 
 ## Part 3 — Insert: Page Numbers
 
@@ -151,7 +151,7 @@ Each scenario must submit PDF files to iLearn for grading.
    - **StudentID_Name_PageNumber.docx**  
    - **StudentID_Name_PageNumber.pdf**
 
----
+6. Submit PDF to iLearn for grading.
 
 ## Part 4 — Table Practice
 
@@ -175,7 +175,7 @@ Each scenario must submit PDF files to iLearn for grading.
    - **StudentID_Name_Table.docx**  
    - **StudentID_Name_Table.pdf**
 
----
+6. Submit PDF to iLearn for grading.
 
 ## Part 5 — Styles
 
@@ -208,7 +208,7 @@ Each scenario must submit PDF files to iLearn for grading.
    - **StudentID_Name_Styles.docx**  
    - **StudentID_Name_Styles.pdf**
 
----
+6. Submit PDF to iLearn for grading.
 
 ## Part 6 — Save
 
@@ -218,8 +218,6 @@ Each scenario must submit PDF files to iLearn for grading.
    - A .pdf version  
 3. Check all file names follow:  
    **StudentID_Name_Keyword**
-
----
 
 # Student Checklist
 
@@ -258,8 +256,6 @@ Each scenario must submit PDF files to iLearn for grading.
 - [ ] Heading 1 modified  
 - [ ] New style created  
 - [ ] New style applied  
-
----
 
 # Grading Rubric (100 Points)
 
