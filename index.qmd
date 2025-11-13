@@ -35,7 +35,7 @@ Before the course begins, ensure you have the following accounts, software, and 
 
 ### Software & Apps
 - iLearn App (Tronclass) on smartphone <https://ilearn.thu.edu.tw>
-- [MS Word](Word.md), MS PowerPoint, MS Teams, MS OneNote 
+- [MS Word](Word.html), MS PowerPoint, MS Teams, MS OneNote 
 - Google Chrome
 - THU AI Apps
   - 咚咚妞網頁版 <https://dondonweb.ithu.tw/>
