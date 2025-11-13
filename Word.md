@@ -276,11 +276,11 @@ When submitting to iLearn for grading., submit PDF files only.
 The criteria subject to change depending on the class progress.
 
 | Category | Skills | Points |
-|---------|--------|--------|
-| Text Formatting | font size 12, bold/italic/underline, sub/superscript, color, highlight | 20 |
-| Paragraph Formatting | spacing, indent, lists, alignments | 20 |
-| Page Numbers | insert, format, position | 10 |
-| Table Skills | modify structure, alignment, AutoFit | 20 |
-| Styles | apply, modify, create | 20 |
-| Save | correct naming and PDF export | 10 |
+|:--------:|:-------:|:------:|
+| Text Formatting | Font Size 12, Bold/Italic/Underline, Sub/Superscript, Color, Highlight | 20 |
+| Paragraph Formatting | Spacing, Indent, Lists, Alignments | 20 |
+| Page Numbers | Insert, Format, Position | 10 |
+| Table Skills | Modify Structure, Alignment, Autofit | 20 |
+| Styles | Apply, Modify, Create | 20 |
+| Save | Correct Naming And PDF Export | 10 |
 | Total |  | 100 |
