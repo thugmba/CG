@@ -1,4 +1,4 @@
-# How to create professional documents
+# Creating Knowledge Effectively
 
 As a professional, creating knowledgeable and well-formatted documents is crucial.
 
