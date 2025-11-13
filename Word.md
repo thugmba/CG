@@ -67,12 +67,12 @@ These are essential **MS Word** features commonly used for preparing *in-class a
 
 **Instructions:**  
 Each practice task begins with creating a new MS Word document.  
-Name every file using the format:
 
+Name every file using the format:
 **StudentID_Name_Keyword**  
 Example: `S09120146_James_WordPractice`
 
-Use **font size 11 pt** in all documents unless otherwise specified.
+Use **Times New Roman** font, **font size 11 pt** in all documents unless otherwise specified.
 
 Each scenario must include saving your work as both:
 - A regular Word file (.docx)
@@ -145,7 +145,7 @@ When submitting to iLearn for grading., submit PDF files only.
 
 4. Ensure the page numbering is set to **normal numbers (1, 2, 3)**.
 
-5. Move the page number to the **top-right** position.
+4. Set **Times New Roman**, font size to **11 pt** for the page number.
 
 6. Save two versions:  
    - **StudentID_Name_PageNumber.docx**  
