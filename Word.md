@@ -13,8 +13,19 @@
   - Highlighting
 
 - Paragraph
+  - Line spacing
+  - Indentation
+  - Bulleted list
+  - Numbered list
   - Horizontal alignment
+    - Left align
+    - Center align
+    - Right align
+    - Justify
   - Vertical alignment
+    - Top align
+    - Center align
+    - Bottom align
 
 - Insert
   - Page number
