@@ -2,7 +2,7 @@
 
 As a professional, creating knowledgeable and well-formatted documents is crucial.
 
-These are essential **MS Word** features commonly used for preparing *in-class activity reports*, *assignments*, and *final project* for the course. Practice using these features to enhance your document formatting skills and earn higher grades on your submissions.
+These are essential **MS Word** features commonly used for preparing *in-class activity reports*, *assignments*, and *final projects* for the course. Practicing these features will enhance your document formatting skills and help you earn higher grades on your submissions.
 
 - Text formatting
   - Font
@@ -72,7 +72,7 @@ Name every file using the format:
 **StudentID_Name_Keyword**  
 Example: `S1234567_James_WordPractice`
 
-StudentID must start with uppercase such as 'S'.
+The StudentID must start with an uppercase letter, such as 'S'.
 
 Use **Times New Roman** font, **font size 11 pt** in all documents unless otherwise specified.
 
@@ -111,7 +111,7 @@ When submitting to iLearn for grading, submit PDF files only.
 
 ## Part 2 — Paragraph Formatting
 
-1. Create a **new document** and set font size to **11 pt**.  
+1. Create a **new document** and set the font size to **11 pt**.  
    Save as:  
    **StudentID_Name_Paragraph.docx**
 
@@ -156,7 +156,7 @@ When submitting to iLearn for grading, submit PDF files only.
 
 ## Part 4 — Table Practice
 
-1. Create a **new document** and set font size to **11 pt**.  
+1. Create a **new document** and set the font size to **11 pt**.  
    Save as:  
    **StudentID_Name_Table.docx**
 
@@ -175,13 +175,13 @@ When submitting to iLearn for grading, submit PDF files only.
    **Step 3: Format Header Row (Row 1)**
    - Font: **Times New Roman, 11 pt, Bold**
    - Text alignment: **Center horizontally and Center vertically**
-   - Background color: **Light Blue** (or any light color)
+   - Background color: **Light Blue**
    - Row height: **1 cm**
 
    **Step 4: Format Data Rows (Rows 2-5)**
    - Font: **Times New Roman, 11 pt**
-   - Column 1 (Student ID): **Left align horizontally, Center vertically**
-   - Column 2 (Name): **Left align horizontally, Center vertically**
+   - Column 1 (Student ID): **Center horizontally, Center vertically**
+   - Column 2 (Name): **Center horizontally, Center vertically**
    - Column 3 (Assignment Score): **Center horizontally, Center vertically**
    - Column 4 (Grade): **Center horizontally, Center vertically**
    - Row height: **0.8 cm**
@@ -203,7 +203,7 @@ When submitting to iLearn for grading, submit PDF files only.
 3. **Final Check:**
    - Ensure all text is visible and readable
    - Verify all alignments are correct
-   - Confirm header row stands out with formatting
+   - Confirm the header row stands out with formatting
    - Check that column widths are appropriate
 
 4. Save two versions:  
@@ -212,7 +212,7 @@ When submitting to iLearn for grading, submit PDF files only.
 
 ## Part 5 — Styles
 
-1. Create a **new document** and set font size to **11 pt**.  
+1. Create a **new document** and set the font size to **11 pt**.  
    Save as:  
    **StudentID_Name_Styles.docx**
 
@@ -225,7 +225,7 @@ When submitting to iLearn for grading, submit PDF files only.
    Importance of Data
 
    Type the first paragraph:  
-   Data is a critical asset for organizations today. Businesses rely on data-driven insights to improve decision making, customer engagement, and strategic planning.
+   Data is a critical asset for organizations today. Businesses rely on data-driven insights to improve decision-making, customer engagement, and strategic planning.
 
    Type the second heading:  
    Using Data Effectively
