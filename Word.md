@@ -133,11 +133,13 @@ When submitting to iLearn for grading, submit PDF files only.
    - Insert a **4 × 5 table** (4 columns, 5 rows)
 
    **Step 2: Add Table Content**
-   - Row 1 (Header): Student ID | Name | Assignment Score | Grade
-   - Row 2: S1234567 | Alice Chen | 85 | B
-   - Row 3: S1234568 | Bob Lin | 92 | A
-   - Row 4: S1234569 | Carol Wang | 78 | C
-   - Row 5: S1234570 | David Liu | 88 | B
+
+      | Student ID | Name | Assignment Score | Grade |
+      |:----------:|:----:|:----------------:|:-----:|
+      | S1234567 | Alice Chen | 85 | B |
+      | S1234568 | Bob Lin | 92 | A |
+      | S1234569 | Carol Wang | 78 | C |
+      | S1234570 | David Liu | 88 | B |
 
    **Step 3: Format Header Row (Row 1)**
    - Font: **Times New Roman, 11 pt, Bold**
@@ -173,7 +175,7 @@ When submitting to iLearn for grading, submit PDF files only.
    - Confirm the header row stands out with formatting
    - Check that column widths are appropriate
 
-4. Save two versions:  
+4.   
    - **StudentID_Name_Table.docx**  
    - **StudentID_Name_Table.pdf**
 
