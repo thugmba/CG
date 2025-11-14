@@ -4,31 +4,20 @@ As a professional, creating knowledgeable and well-formatted documents is crucia
 
 These are essential **MS Word** features commonly used for preparing *in-class activity reports*, *assignments*, and *final projects* for the course. Practicing these features will enhance your document formatting skills and help you earn higher grades on your submissions.
 
-- Text formatting
-   - Font, Font size, Bold, Italic, Underline, Strikethrough, Subscript, Superscript, Text color, Highlighting
+# Essential MS Word features
 
-- Paragraph
-  - Line spacing, Indentation, Bulleted list, Numbered list
-  - Horizontal alignment
-    - Left align, Center align, Right align, Justify
-  - Vertical alignment
-    - Top align, Center align, Bottom align
-
-- Insert
-  - Page number
-
-- Table
-  - Insert table, Modify width, Modify height, Delete table, Insert row above, Insert row below, Insert column left, Insert column right, Delete row, Delete column, Distribute rows, Distribute columns
-  - Alignment
-    - Align top, Align center, Align bottom
-  - AutoFit
-    - AutoFit contents, AutoFit window
-
-- Styles
-  - Applying styles, Modifying styles, Creating new styles
-
-- Save
-  - Save as PDF
+| Category | Skills | Completed |
+|:---------|:-------|:---------:|
+| **Text Formatting** | Font, Font size, Bold, Italic, Underline, Strikethrough, Subscript, Superscript, Text color, Highlighting | ☐ |
+| **Paragraph** | Line spacing, Indentation, Bulleted list, Numbered list | ☐ |
+| **Paragraph - Horizontal Alignment** | Left align, Center align, Right align, Justify | ☐ |
+| **Paragraph - Vertical Alignment** | Top align, Center align, Bottom align | ☐ |
+| **Insert** | Page number | ☐ |
+| **Table** | Insert table, Modify width, Modify height, Delete table, Insert row above, Insert row below, Insert column left, Insert column right, Delete row, Delete column, Distribute rows, Distribute columns | ☐ |
+| **Table - Alignment** | Align top, Align center, Align bottom | ☐ |
+| **Table - AutoFit** | AutoFit contents, AutoFit window | ☐ |
+| **Styles** | Applying styles, Modifying styles, Creating new styles | ☐ |
+| **Save** | Save as PDF | ☐ |
 
 # MS Word Practice Worksheet
 
