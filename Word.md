@@ -72,6 +72,8 @@ Name every file using the format:
 **StudentID_Name_Keyword**  
 Example: `S1234567_James_WordPractice`
 
+StudentID must start with uppercase such as 'S'.
+
 Use **Times New Roman** font, **font size 11 pt** in all documents unless otherwise specified.
 
 Each scenario must include saving your work as both:
@@ -158,19 +160,53 @@ When submitting to iLearn for grading, submit PDF files only.
    Save as:  
    **StudentID_Name_Table.docx**
 
-2. Create a **3 × 4 table** and complete:
-   - Insert row above and row below  
-   - Insert column left and column right  
-   - Delete row 2  
-   - Delete the first column  
-   - Type text in every cell  
-   - Apply vertical alignment: **top**, **center**, **bottom**  
-   - Apply **AutoFit Contents**  
-   - Apply **AutoFit Window**  
-   - Manually adjust cell height and width  
-   - Delete the entire table when finished  
+2. **Create a student grade table** with the following specifications:
 
-3. Save two versions:  
+   **Step 1: Insert Initial Table**
+   - Insert a **4 × 5 table** (4 columns, 5 rows)
+
+   **Step 2: Add Table Content**
+   - Row 1 (Header): Student ID | Name | Assignment Score | Grade
+   - Row 2: S1234567 | Alice Chen | 85 | B
+   - Row 3: S1234568 | Bob Lin | 92 | A
+   - Row 4: S1234569 | Carol Wang | 78 | C
+   - Row 5: S1234570 | David Liu | 88 | B
+
+   **Step 3: Format Header Row (Row 1)**
+   - Font: **Times New Roman, 11 pt, Bold**
+   - Text alignment: **Center horizontally and Center vertically**
+   - Background color: **Light Blue** (or any light color)
+   - Row height: **1 cm**
+
+   **Step 4: Format Data Rows (Rows 2-5)**
+   - Font: **Times New Roman, 11 pt**
+   - Column 1 (Student ID): **Left align horizontally, Center vertically**
+   - Column 2 (Name): **Left align horizontally, Center vertically**
+   - Column 3 (Assignment Score): **Center horizontally, Center vertically**
+   - Column 4 (Grade): **Center horizontally, Center vertically**
+   - Row height: **0.8 cm**
+
+   **Step 5: Adjust Column Widths**
+   - Column 1 (Student ID): **3 cm**
+   - Column 2 (Name): **4 cm**
+   - Column 3 (Assignment Score): **4 cm**
+   - Column 4 (Grade): **2 cm**
+
+   **Step 6: Apply Table Borders**
+   - Outer border: **2.25 pt, solid line**
+   - Inner borders: **0.75 pt, solid line**
+
+   **Step 7: Apply AutoFit**
+   - Test **AutoFit Contents** and observe the changes
+   - Then apply **AutoFit Window** to fit the page width
+
+3. **Final Check:**
+   - Ensure all text is visible and readable
+   - Verify all alignments are correct
+   - Confirm header row stands out with formatting
+   - Check that column widths are appropriate
+
+4. Save two versions:  
    - **StudentID_Name_Table.docx**  
    - **StudentID_Name_Table.pdf**
 
@@ -180,52 +216,79 @@ When submitting to iLearn for grading, submit PDF files only.
    Save as:  
    **StudentID_Name_Styles.docx**
 
-2. Create a short document with the following structure. You may copy the example below:
+2. **Type the following document content exactly as shown:**
 
-   **Example Title:**  
+   Type the title:  
    The Role of Data in Modern Business
 
-   **Example Heading 1:**  
+   Type the first heading:  
    Importance of Data
 
-   **Example Paragraph 1:**  
+   Type the first paragraph:  
    Data is a critical asset for organizations today. Businesses rely on data-driven insights to improve decision making, customer engagement, and strategic planning.
 
-   **Example Heading 2:**  
+   Type the second heading:  
    Using Data Effectively
 
-   **Example Paragraph 2:**  
+   Type the second paragraph:  
    Companies that manage and analyze data efficiently gain a competitive advantage. Proper data handling enables more accurate forecasting and better resource allocation.
 
-3. Apply built-in styles:  
-   - Title → **Title**  
-   - Headings → **Heading 1**  
-   - Paragraphs → **Normal**
+3. **Apply built-in styles:**  
+   - Select "The Role of Data in Modern Business" → Apply **Title** style
+   - Select "Importance of Data" → Apply **Heading 1** style
+   - Select first paragraph → Apply **Normal** style
+   - Select "Using Data Effectively" → Apply **Heading 1** style
+   - Select second paragraph → Apply **Normal** style
 
-4. Modify **Heading 1** style:  
-   - Change the text color  
-   - Change the font size (choose a readable size)  
-   - Make it bold  
+4. **Modify the built-in "Heading 1" style with these exact parameters:**
+   - Font: **Times New Roman**
+   - Font size: **14 pt**
+   - Font style: **Bold**
+   - Text color: **Dark Blue** (RGB: 0, 0, 139 or closest standard color)
+   - Paragraph spacing before: **12 pt**
+   - Paragraph spacing after: **6 pt**
+   - Line spacing: **Single**
 
-5. Create a new style called **MyHeading** and apply it to one paragraph:  
-   - Font: Calibri  
-   - Size: **16 pt**  
-   - Color: Dark Blue  
+5. **Modify the built-in "Title" style with these exact parameters:**
+   - Font: **Times New Roman**
+   - Font size: **18 pt**
+   - Font style: **Bold**
+   - Text color: **Black**
+   - Alignment: **Center**
+   - Paragraph spacing after: **12 pt**
 
-6. Save two versions:  
-   - **StudentID_Name_Styles.docx**  
-   - **StudentID_Name_Styles.pdf**
+6. **Modify the built-in "Normal" style with these exact parameters:**
+   - Font: **Times New Roman**
+   - Font size: **11 pt**
+   - Line spacing: **1.5**
+   - Paragraph spacing after: **6 pt**
+   - Alignment: **Justify**
 
-## Part 6 — Save
+7. **Create a new custom style called "MyCustomHeading":**
+   - Font: **Times New Roman**
+   - Font size: **16 pt**
+   - Font style: **Bold and Italic**
+   - Text color: **Dark Red** (RGB: 139, 0, 0 or closest standard color)
+   - Paragraph spacing before: **18 pt**
+   - Paragraph spacing after: **6 pt**
+   - Left indent: **0.5 cm**
 
-1. Ensure all documents use **11 pt** font size.  
-2. Confirm that each scenario includes both:
-   - A .docx version  
-   - A .pdf version  
-3. Check all file names follow:  
-   **StudentID_Name_Keyword**
+8. **Apply the custom style:**
+   - Add a new heading below the second paragraph
+   - Type: Future Trends in Data Analytics
+   - Apply the **MyCustomHeading** style to this text
 
-## Part 7 - Submission
+9. **Final document structure check:**
+   - Your document should have:
+     - 1 Title (centered, 18 pt, bold)
+     - 3 Headings total (2 with Heading 1 style, 1 with MyCustomHeading style)
+     - 2 Body paragraphs (justified, 11 pt, 1.5 line spacing)
+
+10. Save two versions:  
+    - **StudentID_Name_Styles.docx**  
+    - **StudentID_Name_Styles.pdf**
+
+## Part 6 - Submission
 
 - Submit all PDF files to **iLearn** for grading.
   - StudentID_Name_TextFormatting.pdf
