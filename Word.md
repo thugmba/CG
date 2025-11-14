@@ -6,6 +6,8 @@ These are essential **MS Word** features commonly used for preparing *in-class a
 
 # Essential MS Word features
 
+## Checklist
+
 | Category | Skills | Completed |
 |:---------|:-------|:---------:|
 | **Text Formatting** | Font, Font size, Bold, Italic, Underline, Strikethrough, Subscript, Superscript, Text color, Highlighting | ☐ |
