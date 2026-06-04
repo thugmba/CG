@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Guide</title>
+<style>
+:root {
+  --primary: #dc2626;
+  --primary-dark: #991b1b;
+  --primary-light: #fee2e2;
+  --accent: #e11d48;
+  --accent-light: #ffe4e6;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #f5f5f5;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.slide {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  padding: 50px 70px;
+  background: #fff;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  overflow: hidden;
+}
+
+.slide.active {
+  display: flex;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide.exit-left {
+  display: flex;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide.exit-right {
+  display: flex;
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.title-slide {
+  background: #fff !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: none !important;
+}
+
+.title-slide h1 {
+  font-size: 4.5em;
+  color: var(--primary);
+  margin-bottom: 28px;
+}
+
+.title-slide .meta {
+  font-size: 1.3em;
+  color: #444;
+  line-height: 2;
+}
+
+.title-slide .meta strong {
+  color: #222;
+}
+
+.content-slide {
+  border-top: 4px solid var(--primary);
+}
+
+.content-slide h2 {
+  font-size: 2.8em;
+  color: var(--primary);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.content-slide h3 {
+  font-size: 1.35em;
+  color: var(--primary-dark);
+  margin-bottom: 10px;
+}
+
+.slide-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.slide-body p, .slide-body li {
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.slide-body ul, .slide-body ol {
+  padding-left: 1.5em;
+  margin-bottom: 8px;
+}
+
+.slide-body li {
+  margin-bottom: 6px;
+}
+
+.slide-body a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.slide-body a:hover {
+  text-decoration: underline;
+}
+
+.slide-body strong {
+  color: var(--primary-dark);
+}
+
+.slide-body code {
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 1.15em;
+  background: var(--primary-light);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.slide-body pre {
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 1.15em;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.slide-body blockquote {
+  border-left: 4px solid var(--primary);
+  background: var(--primary-light);
+  padding: 12px 18px;
+  margin: 10px 0;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.col-card {
+  padding: 14px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.highlight-box {
+  background: #fffbeb;
+  border: 1px solid #fbbf24;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin: 10px 0;
+}
+
+.highlight-box strong {
+  color: #92400e;
+}
+
+.step-box {
+  border-left: 3px solid var(--primary);
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+.term-card {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.term-name {
+  width: 220px;
+  white-space: normal;
+  font-weight: bold;
+  color: var(--primary-dark);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+
+table th {
+  background: var(--primary);
+  color: #fff;
+  padding: 10px 14px;
+  text-align: left;
+  border-right: 3px solid rgba(255,255,255,0.3);
+}
+
+table th:last-child {
+  border-right: none;
+}
+
+table td {
+  padding: 8px 14px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+table tr:nth-child(even) td {
+  background: #f9f9f9;
+}
+
+.checklist li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+#slideCounter {
+  position: fixed;
+  bottom: 12px;
+  left: 16px;
+  font-size: 0.8em;
+  color: #999;
+  z-index: 999;
+}
+
+#progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--primary);
+  z-index: 999;
+  transition: width 0.3s ease;
+}
+
+.toc-slide .slide-body ol {
+  font-size: 1.3em;
+  line-height: 2.2;
+}
+
+.toc-slide .slide-body ol li a {
+  color: #222;
+  text-decoration: none;
+}
+
+.toc-slide .slide-body ol li a:hover {
+  color: var(--primary);
+}
+</style>
+</head>
+<body>
+
+<div id="progressBar"></div>
+<div id="slideCounter"></div>
+
+<!-- Title Slide -->
+<div class="slide title-slide">
+  <h1>Course Guide</h1>
+  <div class="meta">
+    <strong>Innovation Analytics Lab</strong><br>
+    Global Master of Business Administration<br>
+    Tunghai University<br>
+    <span id="year"></span>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</div>
+
+<!-- Table of Contents -->
+<div class="slide content-slide toc-slide">
+  <h2>Table of Contents</h2>
+  <div class="slide-body">
+    <ol>
+      <li><a href="#" onclick="goSlide(2);return false;">Purpose</a></li>
+      <li><a href="#" onclick="goSlide(3);return false;">Prerequisites</a></li>
+      <li><a href="#" onclick="goSlide(5);return false;">Communication</a></li>
+      <li><a href="#" onclick="goSlide(7);return false;">Attendance</a></li>
+      <li><a href="#" onclick="goSlide(8);return false;">Workload</a></li>
+      <li><a href="#" onclick="goSlide(9);return false;">Course Components</a></li>
+      <li><a href="#" onclick="goSlide(14);return false;">Policies</a></li>
+      <li><a href="#" onclick="goSlide(17);return false;">Support Resources</a></li>
+    </ol>
+  </div>
+</div>
+
+<!-- 1. Purpose -->
+<div class="slide content-slide">
+  <h2>1. Purpose</h2>
+  <div class="slide-body">
+    <p>This guide outlines the course policies and expectations for students enrolled at THU. It is essential that all students read and understand these guidelines to ensure a successful learning experience.</p>
+    <p>Additionally, this guide can help students prepare as professionals in the workplace by:</p>
+    <ul>
+      <li><strong>Understanding</strong> task instructions clearly</li>
+      <li><strong>Executing</strong> the task precisely</li>
+      <li><strong>Creating</strong> a high-quality output</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Prerequisites (1/2): Accounts -->
+<div class="slide content-slide">
+  <h2>2. Prerequisites (1/2)</h2>
+  <div class="slide-body">
+    <p>Before the course begins, ensure you have the following accounts, software, and technical support resources set up.</p>
+    <h3>Accounts</h3>
+    <ul>
+      <li>THU official <strong>email</strong> account (xyz@thu.edu.tw) <a href="https://tmail.thu.edu.tw/" target="_blank">tmail.thu.edu.tw</a></li>
+      <li>THU official <strong>MS Teams</strong> account (xyz@<strong>tdrive</strong>.thu.edu.tw) for accessing any MS Apps <a href="https://login.microsoftonline.com" target="_blank">login.microsoftonline.com</a></li>
+      <li>Be aware of the <strong>difference between THU official email and MS Teams</strong> account. Official email account won't be able to access MS Teams. Only <strong>official MS Teams</strong> account can access MS Teams.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Prerequisites (2/2): Software & Apps -->
+<div class="slide content-slide">
+  <h2>2. Prerequisites (2/2)</h2>
+  <div class="slide-body">
+    <h3>Software &amp; Apps</h3>
+    <div class="two-col">
+      <div class="col-card">
+        <ul>
+          <li>iLearn App (Tronclass) <a href="https://ilearn.thu.edu.tw" target="_blank">ilearn.thu.edu.tw</a></li>
+          <li>MS Word, PowerPoint, Teams, OneNote</li>
+          <li>Google Chrome</li>
+          <li>THU AI Apps: 咚咚妞網頁版</li>
+        </ul>
+      </div>
+      <div class="col-card">
+        <ul>
+          <li><strong>Python Labs:</strong> Python, VS Code, GitHub</li>
+          <li><strong>R Labs:</strong> R, RStudio, GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. Communication (1/2) -->
+<div class="slide content-slide">
+  <h2>3. Communication (1/2)</h2>
+  <div class="slide-body">
+    <p>Mastering professional email communication helps you make a positive impression on everyone you work with. Each email you write is an opportunity to show <strong>respect</strong>, <strong>clarity</strong>, and <strong>professionalism</strong>.</p>
+    <ul>
+      <li>THU's official email will be used for all course-related communication. (e.g., xyz@thu.edu.tw)</li>
+      <li>To send course-related emails to the instructor, log in to <a href="https://tmail.thu.edu.tw" target="_blank">tmail.thu.edu.tw</a> and send your email from there. This ensures emails are not filtered as spam.</li>
+      <li>Emails sent during work hours (9AM-5PM) will be responded to within a reasonable time.</li>
+      <li>Course-related email should include course name, your name, student ID, department, and a clear subject line.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Communication (2/2): Email Example -->
+<div class="slide content-slide">
+  <h2>3. Communication (2/2)</h2>
+  <div class="slide-body">
+    <h3>Email Example</h3>
+    <blockquote>
+      <strong>Subject:</strong> Question About Assignment 2 Deadline - Introduction to Data Science<br><br>
+      Dear Professor [Name],<br><br>
+      Course: Introduction to Data Science (CS 301)<br>
+      Student Name: Sarah Johnson<br>
+      Student ID: 2023456789<br>
+      Department: Computer Science<br><br>
+      I am writing to inquire about the deadline for Assignment 2, which is currently scheduled for November 15th.<br><br>
+      Best regards,<br>
+      Sarah Johnson
+    </blockquote>
+    <div class="highlight-box">
+      <strong>Tip:</strong> Additional communication methods may be explored based on specific requirements.
+    </div>
+  </div>
+</div>
+
+<!-- 4. Attendance -->
+<div class="slide content-slide">
+  <h2>4. Attendance</h2>
+  <div class="slide-body">
+    <p>Attending class regularly develops the <strong>professional work ethic</strong> that employers value most in the workplace. This habit shows you are <strong>responsible and reliable</strong>, qualities essential for career success.</p>
+    <ul>
+      <li>Attendance at all classes is mandatory for students.</li>
+      <li>Students must check in using the iLearn App for each class during the 'check-in period.'</li>
+      <li>Make sure you are connected to THU Wi-Fi and that GPS is turned on in your smartphone.</li>
+      <li>If any error occurs during check-in, log out of the iLearn APP and log back in, then attempt check-in again. If the error persists, contact THU technical support.</li>
+      <li>For technical inquiries, contact 04-23590121# 30211, ilearn@thu.edu.tw</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 5. Workload -->
+<div class="slide content-slide">
+  <h2>5. Workload</h2>
+  <div class="slide-body">
+    <p>To succeed in this course, it is important to understand the expected workload. Based on past experiences, students typically spend <strong>one to two hours per week</strong>, outside of class time, reviewing course materials and preparing for the next class.</p>
+  </div>
+</div>
+
+<!-- 6. Course Components: Assignments (1/2) -->
+<div class="slide content-slide">
+  <h2>6. Course Components: Assignments (1/2)</h2>
+  <div class="slide-body">
+    <p>Every assignment you complete is a step toward becoming the professional you want to be. Embrace each task as a <strong>chance</strong> to grow your skills and prove to yourself that you can <strong>achieve excellence through dedication and effort</strong>.</p>
+    <ul>
+      <li>The assignment must be your own.</li>
+      <li>Use the template provided by the instructor.</li>
+      <li>Copying the contents directly from AI tools is not allowed for writing assignments.</li>
+      <li>Homework is due by <strong>5 PM on the Friday</strong> of the same week it's announced.</li>
+      <li>Convert a written assignment to <strong>PDF</strong> format.</li>
+      <li>All assignment files must follow standard naming convention: <code>StudentID_Name_Keyword.pdf</code></li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. Course Components: Assignments (2/2) -->
+<div class="slide content-slide">
+  <h2>6. Course Components: Assignments (2/2)</h2>
+  <div class="slide-body">
+    <ul>
+      <li>Example: <code>S123456_Jane_Workflow.pdf</code></li>
+      <li>For a video assignment:
+        <ol>
+          <li>Upload the video to your <strong>Google Drive</strong>.</li>
+          <li>Submit a link to the video to iLearn.</li>
+        </ol>
+      </li>
+      <li>To avoid submission errors, submit your work at least one hour before the deadline.</li>
+      <li>For grammar and spelling checks, use tools like Grammarly or Microsoft Editor.</li>
+      <li>Submit assignments by the deadline. Contact the instructor before the due date if you need to discuss alternative arrangements.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. Course Components: Labs -->
+<div class="slide content-slide">
+  <h2>6. Course Components: Labs</h2>
+  <div class="slide-body">
+    <p>In-class labs are where learning comes alive, where you transform knowledge into real skills you can use in your career.</p>
+    <ul>
+      <li>To follow the lecture properly, change the computer's default language to English.</li>
+      <li>Ensure you can use MS Teams, MS OneNote before the lab session.</li>
+      <li>Listen carefully to the instructor's explanation before starting the lab.</li>
+      <li>Complete the lab within the allotted time.</li>
+      <li>Save your work frequently to avoid data loss.</li>
+      <li>Double-check your work before submission.</li>
+      <li>Submit the lab assignment to iLearn before deadline.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. Course Components: Exams (1/2) -->
+<div class="slide content-slide">
+  <h2>6. Course Components: Exams (1/2)</h2>
+  <div class="slide-body">
+    <p>Every exam is a chance to prove to yourself how much you've learned and how capable you are.</p>
+    <ul>
+      <li>If you arrive late, you will not be permitted to take the exam.</li>
+      <li>Each exam is <strong>50 minutes</strong> long.</li>
+      <li>Mid-term exam: 20 multiple-choice questions.</li>
+      <li>Final exam: 20 multiple-choice questions or may be substituted by a final presentation.</li>
+      <li>To take an exam, use the iLearn on a computer.</li>
+      <li>If the exam is held in a computer lab, use the computer provided. Personal laptops are not allowed.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. Course Components: Exams (2/2) -->
+<div class="slide content-slide">
+  <h2>6. Course Components: Exams (2/2)</h2>
+  <div class="slide-body">
+    <ul>
+      <li>During the exam, all personal belongings (bags, phones, smartwatches, etc.) must be placed at the front of the classroom.</li>
+      <li>No talking or any form of communication is allowed during the exam.</li>
+      <li>Once you finished the exam, submit it on iLearn and leave the classroom quietly.</li>
+      <li>The type of exam is subject to change depending on the progress of the course.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. Course Components: Presentations (1/3) -->
+<div class="slide content-slide">
+  <h2>6. Course Components: Presentations (1/3)</h2>
+  <div class="slide-body">
+    <p>This course incorporates <strong>professional-level presentation practice</strong> modeled after TED Talks.</p>
+    <ul>
+      <li>The use of devices such as PCs, phones, and tablets is prohibited during the presentation.</li>
+      <li>Presentations should last between <strong>3 to 5 minutes</strong> depending on the class size.</li>
+      <li>The 'final' slide file (e.g., PowerPoint) should be turned in no later than <strong>5 PM on the Friday</strong> preceding the presentation week.</li>
+      <li>Presentation topics will be assigned by the instructor.</li>
+      <li>Notes or scripts are not allowed during the presentation.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. Course Components: Presentations (2/3): Evaluation -->
+<div class="slide content-slide">
+  <h2>6. Course Components: Presentations (2/3)</h2>
+  <div class="slide-body">
+    <h3>Evaluation Criteria</h3>
+    <table>
+      <thead>
+        <tr><th>Criterion</th><th>Weight</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Content</td><td>40%</td></tr>
+        <tr><td>Delivery</td><td>30%</td></tr>
+        <tr><td>Body Language</td><td>20%</td></tr>
+        <tr><td>Time Management</td><td>10%</td></tr>
+      </tbody>
+    </table>
+    <p>The oral presentation format largely follows TED's style: <strong>no scripts, no slides</strong>.</p>
+  </div>
+</div>
+
+<!-- 6. Course Components: Presentations (3/3): Reference -->
+<div class="slide content-slide">
+  <h2>6. Course Components: Presentations (3/3)</h2>
+  <div class="slide-body">
+    <h3>Reference TED Talks</h3>
+    <div class="two-col">
+      <div class="col-card">
+        <p><strong>Leadership &amp; Management</strong></p>
+        <ul>
+          <li>Simon Sinek: Why good leaders make you feel safe</li>
+          <li>Jim Donovan: The Making of an Investment Banker</li>
+          <li>Larry McEnerney: The Craft of Writing Effectively</li>
+        </ul>
+      </div>
+      <div class="col-card">
+        <p><strong>Communication &amp; Public Speaking</strong></p>
+        <ul>
+          <li>Conor Neill: How to Start a Speech</li>
+          <li>Matt Abrahams: Tips for Non-Native Speakers</li>
+          <li>Vinh Giang: Improve how you speak</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 7. Policies: Academic Integrity -->
+<div class="slide content-slide">
+  <h2>7. Policies: Academic Integrity</h2>
+  <div class="slide-body">
+    <ul>
+      <li>Any academic misconduct will be reported to your department and the university.</li>
+      <li>For details about academic misconduct, refer to THU Academic Regulations.</li>
+      <li>Article 33:
+        <ul>
+          <li>Being absent from the exam without an approved leave: the results shall be counted as <strong>zero</strong>.</li>
+          <li>Cheating on midterm, final, or graduation exams: the semester results shall be counted as <strong>zero</strong>.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- 7. Policies: AI Usage (1/2) -->
+<div class="slide content-slide">
+  <h2>7. Policies: AI Usage (1/2)</h2>
+  <div class="slide-body">
+    <p>AI technologies can be powerful tools to <strong>enhance your learning</strong> and <strong>productivity</strong>. However, it is crucial to use them <strong>ethically</strong> and <strong>responsibly</strong> to maintain academic integrity.</p>
+    <ul>
+      <li>AI tools may be used for brainstorming and research, but <strong>all written work must be in your own words</strong>.</li>
+      <li>If any AI systems are used in your work, specify the name of the AI system, its purpose, and its output as detailed as possible to avoid plagiarism.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 7. Policies: AI Usage (2/2): Example -->
+<div class="slide content-slide">
+  <h2>7. Policies: AI Usage (2/2)</h2>
+  <div class="slide-body">
+    <h3>Example: Using AI for brainstorming</h3>
+    <blockquote>
+      <strong>AI System Used:</strong> ChatGPT-4<br>
+      <strong>Purpose:</strong> Generate initial ideas for marketing strategies<br>
+      <strong>Output:</strong> The AI suggested five marketing approaches: social media campaigns, email marketing, influencer partnerships, content marketing, and SEO optimization. I selected content marketing and developed my own strategy based on course concepts.
+    </blockquote>
+  </div>
+</div>
+
+<!-- 8. Support Resources -->
+<div class="slide content-slide">
+  <h2>8. Support Resources</h2>
+  <div class="slide-body">
+    <h3>Technical Support</h3>
+    <ul>
+      <li>THU Technical Support: <a href="https://lis.thu.edu.tw/web/page/page.php?lang=en&scid=54&sid=96" target="_blank">lis.thu.edu.tw</a></li>
+      <li>THU Helpdesk: <a href="https://helpdesk.thu.edu.tw/" target="_blank">helpdesk.thu.edu.tw</a></li>
+    </ul>
+    <h3>Office Hours</h3>
+    <ul>
+      <li>Office hours will be announced in class.</li>
+      <li>Appointments can be made with prior arrangement.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+
+function autoScaleSlides() {
+  slides.forEach(slide => {
+    const body = slide.querySelector('.slide-body');
+    if (!body) return;
+    slide.style.display = 'flex';
+    body.style.fontSize = '1em';
+    const targetH = body.clientHeight * 0.96;
+    body.style.flex = 'none';
+    body.style.height = 'auto';
+    body.style.overflow = 'visible';
+    let lo = 0.9, hi = 1.5;
+    for (let j = 0; j < 25; j++) {
+      const mid = (lo + hi) / 2;
+      body.style.fontSize = mid + 'em';
+      if (body.scrollHeight <= targetH) lo = mid;
+      else hi = mid;
+    }
+    body.style.fontSize = lo + 'em';
+    body.style.flex = '';
+    body.style.height = '';
+    body.style.overflow = '';
+    slide.style.display = '';
+  });
+}
+
+autoScaleSlides();
+
+function showSlide(index, direction) {
+  const dir = direction || (index > current ? 'forward' : 'backward');
+  slides.forEach((s, i) => {
+    s.classList.remove('active', 'exit-left', 'exit-right');
+    if (i < index) s.classList.add('exit-left');
+    else if (i > index) s.classList.add('exit-right');
+  });
+  slides[index].classList.add('active');
+  const isTitle = slides[index].classList.contains('title-slide');
+  document.getElementById('slideCounter').style.display = isTitle ? 'none' : 'block';
+  document.getElementById('progressBar').style.display = isTitle ? 'none' : 'block';
+  document.getElementById('slideCounter').textContent = (index + 1) + ' / ' + slides.length;
+  document.getElementById('progressBar').style.width = ((index + 1) / slides.length * 100) + '%';
+}
+
+function goSlide(index) {
+  current = index;
+  showSlide(current);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+    e.preventDefault();
+    if (current > 0) { current--; showSlide(current, 'backward'); }
+  }
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+    e.preventDefault();
+    if (current < slides.length - 1) { current++; showSlide(current, 'forward'); }
+  }
+  if (e.key === 'Home') { e.preventDefault(); current = 0; showSlide(current, 'backward'); }
+  if (e.key === 'End') { e.preventDefault(); current = slides.length - 1; showSlide(current, 'forward'); }
+});
+
+showSlide(0);
+</script>
+
+</body>
+</html>
